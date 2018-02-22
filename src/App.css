@@ -1,19 +1,22 @@
 h1 {
-  color: red;
-}
-  
-.bigTitle {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-  color: red;
+  color: rgb(252, 0, 239);
+  animation: h1-spin infinite 5s linear;
 }
 
-.App {
-  text-align: center;
+@keyframes h1-spin {
+  from { transform: rotate(-5deg); }
+  to { transform: rotate(5deg); }
 }
 
-
-@keyframes bigTitle-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+body {
+  background-image: url('./images/four-smoothies.JPG');
+  background-size: 100% auto;
+  /* background-origin: padding-box; */
+  /* background-image: url('./images/fruit-plate.jpg');
+  background-image: url('./images/green hue.jpg');
+  background-image: url('./images/healthy-food-basket.jpg');
+  background-image: url('./images/limone-fresco.jpg');
+  background-image: url('./images/pumpkin.jpg');
+  background-image: url('./images/superfoods-weight-loss-salad.jpg'); */
 }
+

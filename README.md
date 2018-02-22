@@ -1,3 +1,31 @@
+**References:**
+
+#Spinning title:
+--React App 
+
+#Images
+-Fruit plate: --https://i.pinimg.com/originals/c9/e3/c4/c9e3c46ebf985872fd8d8bf22c78fe9a.jpg
+
+-Super foods weight loss...
+--https://media.self.com/photos/585a998edb011b3f5e860ce1/master/pass/superfoods-weight-loss-salad.jpg
+
+-Flying fruit basket
+--http://foodindustryexecutive.com/wp-content/uploads/2016/12/bigstock-Healthy-food-choice-121417376-e1480721381625.jpg
+
+-Pumpkin
+--https://i.pinimg.com/736x/66/dc/3b/66dc3b50d06f1c9f3d321473902de4be--halloween-projects-halloween-ideas.jpg
+
+-Four smoothies
+--https://media.defense.gov/2017/Apr/26/2001738198/-1/-1/0/170425-F-ZZ999-013.JPG
+
+-Green hue
+--http://www.langhaarwelt.de/wp-content/uploads/2017/03/02_gruen_essen_macht_gesund_v650xx.jpg
+
+-Limone-fresco
+--https://i1.wp.com/www.virosacmagazine.it/wp-content/uploads/2017/08/come-conservare-limone-fresco-frigo-freezer.jpg?resize=1160%2C770
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
