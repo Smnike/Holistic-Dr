@@ -41,13 +41,13 @@ class Doctor extends Component {
           </div>
 
           <div className="row">
-            <div className="input-field col s5 offset-s2">
+            <div className="input col s5 offset-s2">
               <input className="zipcode" type="text" name="zip-code" placeholder="Zip Code"/> 
             </div>
 
-            <div className="button black btn waves-effect waves-red">
+            {/* <div className="button black btn waves-effect waves-red"> */}
               <button onClick={this.handleSubmit}>Check Near Me </button>
-            </div>
+            {/* </div> */}
         </div>
 
         {/* <input type="text" name="zip-code" placeholder="Zip Code"/> <button type="submit" onSubmit={(e) => this.onHandleSubmit(e)}>Check Near Me</button> */}
