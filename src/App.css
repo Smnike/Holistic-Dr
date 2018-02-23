@@ -1,22 +1,47 @@
 h1 {
-  color: rgb(252, 0, 239);
-  animation: h1-spin infinite 5s linear;
+  color: rgba(252, 122, 0, 0.637);
+  /* animation: h1-spin infinite 5s linear; */
+  animation: h1-spin infinite 15s linear;
+  font-weight: 600;
+  font-size: 100px;
+  margin: 45px 0 0 0;
+}
+
+h3 {
+  font-family: cursive;
+  color: rgba(0, 0, 0, 0.507);
+  font-weight: bold;
+  margin: 0 0 17px 0;
 }
 
 @keyframes h1-spin {
-  from { transform: rotate(-5deg); }
-  to { transform: rotate(5deg); }
+  from { transform: rotate(-2deg); }
+  to { transform: rotate(2deg); }
 }
 
 body {
-  background-image: url('./images/four-smoothies.JPG');
-  background-size: 100% auto;
+  /* background-image: url('./images/four-smoothies.JPG'); */
+  background-size: 100% no-repeat;
   /* background-origin: padding-box; */
-  /* background-image: url('./images/fruit-plate.jpg');
-  background-image: url('./images/green hue.jpg');
-  background-image: url('./images/healthy-food-basket.jpg');
-  background-image: url('./images/limone-fresco.jpg');
-  background-image: url('./images/pumpkin.jpg');
-  background-image: url('./images/superfoods-weight-loss-salad.jpg'); */
+  /* background-image: url('./images/fruit-plate.jpg'); */
+  /* background-image: url('./images/green hue.jpg'); */
+  /* background-image: url('./images/healthy-food-basket.jpg'); */
+  /* background-image: url('./images/limone-fresco.jpg'); */
+  /* background-image: url('./images/pumpkin.jpg'); */
+  background-image: url('./images/superfoods-weight-loss-salad.jpg');
 }
 
+div.zipcode {
+  /* border-bottom: 1px solid #f40b03;
+  -webkit-box-shadow: 0 1px 0 0 #f40b03;
+  -moz-box-shadow: 0 1px 0 0 #f40b03;
+  box-shadow: 0 1px 0 0 #f40b03; */
+}
+
+.results {
+  color: white;
+}
+
+div.button {
+
+}

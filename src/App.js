@@ -38,15 +38,23 @@ class Doctor extends Component {
           </div>
             <h3>near me</h3>
           </div>
-        
-          <input type="text" name="zip-code" placeholder="Zip Code"/> <button onClick={this.handleSubmit}>Check Near Me</button>
+        <div className="zipcode">
+        <div className="row">
+          <input type="text" name="zip-code" placeholder="Zip Code"/> 
+        </div>
+        </div>
+
+        <div className="button">
+          <button onClick={this.handleSubmit}>Check Near Me</button>
+        </div>
         {/* <input type="text" name="zip-code" placeholder="Zip Code"/> <button type="submit" onSubmit={(e) => this.onHandleSubmit(e)}>Check Near Me</button> */}
       
         {console.log('doctors from render is', this.state.doctors)}
         {console.log('one doctor from render is', this.state.doctors[0])}
         {
         this.state.doctors.map((pract, index) => {
-          return <li key={index}>{pract.name} <br/> Street: {pract.visit_address.street} <br/> City: {pract.visit_address.city} <br/> Zip Code: {pract.visit_address.zip} <br/> </li>
+          return <div className="results">
+          <li key={index}>{pract.name} <br/> Street: {pract.visit_address.street} <br/> City: {pract.visit_address.city} <br/> Zip Code: {pract.visit_address.zip} <br/> </li></div>
           console.log(pract)
         })
       }
